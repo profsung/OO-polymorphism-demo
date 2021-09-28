@@ -1,4 +1,4 @@
-public class Shape {
+public abstract class Shape {
 
 	private int x;
 	private int y;
@@ -8,9 +8,7 @@ public class Shape {
 		this.y = y;
 	}
 
-	public double getArea() {
-		return -1;
-	}
+	public abstract double getArea();
 
 	public int getX() {
 		return x;
