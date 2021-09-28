@@ -20,4 +20,15 @@ public class Shape {
 		return y;
 	}
 
+	public String say() {
+		return "Hello";
+	}
+
+	public String say(int m) {
+		return "Hello " + m;
+	}
+
+	public String say(double n) {
+		return "Hello " + n;
+	}
 }
